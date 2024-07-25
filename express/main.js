@@ -10,7 +10,7 @@ app.use(express.static('D:/Coding/UTA web/assets/img/'))
 app.use(express.static('D:/Coding/UTA web/assets/js/'))
 app.get('/', async (req,res) => {
 
-    res.render('D:/Coding/UTA web/index.ejs')
+    res.sendFile('D:/Coding/UTA web/index.html')
 })
 
 const PORT = 3000
