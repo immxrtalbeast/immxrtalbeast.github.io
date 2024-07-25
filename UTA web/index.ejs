@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+  <html id="html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>utarf</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.cdnfonts.com/css/zen-kurenaido" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+  
+    <main>
+      <div class="main_window">
+        <div class="osnova">
+          <div class="uta">
+            <a class="uta1" id="utamain">“ЮТА”</a>
+          </div>
+          <div class="contacts_main">
+              <img src="phone-flip.svg" alt="" class="phone" />
+              +7 995 135-57-47 / 2733987@mail.ru
+              
+          </div>
+          
+          
+          
+        </div>
+        <div class="shapka">
+          <header class="header">
+            <div class="header_161">
+              <a  class="zomb">Главная</a>
+              <a  class="zomb">Наши услуги
+                <img src="arrow.svg" alt="" class="arrow" />
+              </a>
+              <a  class="zomb">Контакты</a>
+              <a  class="zomb">Партнёры</a>
+            </div>
+          </header>
+        </div>
+
+        <div class="photo">
+          <div class="innerphoto">
+            ТАМОЖЕННОЕ ОФОРМЛЕНИЕ “ЮТА”
+          </div>
+        </div>
+
+
+        <div class="advantages">
+          <div class="big_gray">
+
+            <div class="greens">
+              <div class="green1">
+                <img src="directions.svg" alt="" class="BGImagesInAdvantages">
+                <div class="advantageHeader">
+                  Работаем по всей стране
+                </div>
+                <div class="advantageText1">
+
+                  <img src="truck.png" alt="" class="GreenImg1"> 
+                  ЖД и Автоперевозки<br/>
+
+                  
+                  <img src="plane.png" alt="" class="GreenImg1">
+                  Авиадоставки<br/>
+
+                  
+                  <img src="ship.png" alt="" class="GreenImg1">
+                  Морские перевозки<br/>
+                </div>
+              </div>
+  
+  
+              <div class="green2">
+                <img src="world.svg" alt="" class="BGImagesInAdvantages">
+                <div class="advantageHeader">
+                  Доставки из любой точки мира
+                </div>
+                <div class="advantageText2">
+
+                  <img src="fast-truck.png" alt="" class="GreenImg1"> 
+                  Быстрое оформление документов<br/>
+
+                  
+                  <img src="list.png" alt="" class="GreenImg1">
+                  Сложные задачи в приоритете<br/>
+
+                  
+                  <img src="calculator.png" alt="" class="GreenImg1">
+                  Рассчитываем стоимость<br/>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div class="gray_small">
+              <div class="grayHeader">
+                Более 12 лет на рынке
+                <img src="people.png" alt="" class="GreenImgGray">
+              </div>
+              <div class="graytext">
+                Здесь пока-что пусто...
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="servicesmain">
+
+          <div class="serviceheader">
+            Мы можем предложить
+          </div>
+          <div class="servicestexts">
+          
+          <div class="servicetext1">
+            Таможенное оформление<br/>
+            Импорт/Экспорт<br/>
+            Аутсорсинг ВЭД<br/>
+            Консультации<br/>
+          </div>
+          
+          
+          <div class="servicetext2">
+            Разрешения на вывоз<br/>
+            Санкционные товары<br/>
+            Параллельный импорт<br/>
+            Сертификация<br/>
+          
+          </div>
+        
+         </div>
+           <img src="briefcase.png" alt="" class="BGImageInServices1">
+          <img src="document-signed.png" alt="" class="BGImageInServices2">
+        </div>
+        <div class="dopinfo">
+          <div class="infoheader">
+            Также...
+          </div>
+          <div class="infotext">
+            <img src="workers.png" alt="" class="infoimg">
+            Мы работаем с физлицами и организациями <br/>
+
+            <img src="money.png" alt="" class="infoimg">
+            Возможна оплата от имени ООО или ИП с НДС<br/>
+
+          </div>
+        </div>
+
+        <div class="order">
+          <div class="orderheader">
+            Оставьте свой номер и мы вам перезвоним
+          </div>
+          <div class="order_input">
+            <label for="name">Имя<span style="color: red">*</span>:</label>
+            <input type="text" id="name" name="name" required minlength="4" maxlength="8"/>
+
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" pattern=".+@example\.com"/>
+
+            <label for="phonenumber">Телефон<span style="color: red">*</span>:</label>
+            <input type="number" id="phonenumber" name="phonenumber" required minlength="11" />
+          </div>
+          <div class="order_check">
+            Предпочитаемый вид связи:
+            <div class="checkboxes">
+              <input type="checkbox" id="checkbox" name="checkbox" checked />
+              <label for="checkbox">WhatsApp</label>
+
+              <input type="checkbox" id="checkbox" name="checkbox"/>
+              <label for="checkbox">Телефон</label>
+
+              <input type="checkbox" id="checkbox" name="checkbox"/>
+              <label for="checkbox">E-mail</label>
+            </div>
+            <input class="order_button" type="button" value="Свяжитесь с нами" />
+          </div>
+        </div>
+        
+        <div class="end">
+          <div class="copyright">
+            Copyright ©2024 | OOO ЮТА. Все права защищены 
+          </div>
+          <div class="contactsend">
+            Контакты </br>
+            +7 995 135-57-47 WhatsApp </br>
+            2733987@mail.ru
+          </div>
+      </div>
+      
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
