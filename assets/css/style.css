@@ -400,24 +400,23 @@ header{
     border: #000000;
     color: #67d285;
     outline: none;
-    transition: all 0.3s;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
 
 }
 
 
-.order_button:hover {
-    background-color: #2baa50;
-    color: #FFFFFF;
-    transform: translateY(-4px);
-}
+
   
 .order_button:active {
     box-shadow:
       inset 0px 0px 15px rgb(0 0 0 / 60%);
+    
 }
 
 
-
+.thx{
+    display: none;
+}
 .end{
     height: 70px;
     background-color: #969696;
@@ -445,6 +444,21 @@ header{
 
 }
 
+@media (max-width:790px){
+    .main_window{
+        width: 200%;
+        font-size: 17px;
+    
+    }
+}
+    
+@media (max-width:590px){
+    .main_window{
+        width: 250%;
+        font-size: 16px;
+    
+    }
+}
 
 
 @media (max-width:435px){
@@ -525,7 +539,7 @@ header{
 @media (max-width:376px){
     .main_window{
         width: 375px;
-        font-size: 12px;
+        font-size: 10px;
         height: 1900px;
     }
     .phone{
@@ -594,3 +608,18 @@ header{
     }
 }
 
+@media(hover: hover){
+    .order_button:hover {
+        background-color: #2baa50;
+        color: #FFFFFF;
+        transform: translateY(-4px);
+    }   
+
+}
+
+@media(hover: none){
+    .order_button:active{
+        background-color: #2baa50;
+
+    }
+}
